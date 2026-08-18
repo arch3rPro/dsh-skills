@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/readme/hero.svg" width="100%" alt="dsh-skills — coding-agent skills distilled from DeepSeek Harness, organized across architecture, testing, documentation, and process">
+  <img src="./assets/readme/hero.jpg" width="100%" alt="dsh-skills — coding-agent skills distilled from DeepSeek Harness, organized across architecture, testing, documentation, and process">
 </p>
 
 <div align="center">

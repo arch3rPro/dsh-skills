@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/readme/hero.svg" width="100%" alt="dsh-skills — 由 DeepSeek Harness 提炼的编码智能体技能，涵盖架构、测试、文档与流程四大类">
+  <img src="./assets/readme/hero.jpg" width="100%" alt="dsh-skills — 由 DeepSeek Harness 提炼的编码智能体技能，涵盖架构、测试、文档与流程四大类">
 </p>
 
 <div align="center">
