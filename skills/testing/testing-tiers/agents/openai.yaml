@@ -1,0 +1,4 @@
+interface:
+  display_name: "Testing Tiers"
+  short_description: "Choose the right test tier, test the real entry path, and verify the world rather than the component's self-report"
+  default_prompt: "Use $testing-tiers when writing, planning, or reviewing tests, deciding what a change needs to be tested, or when a suite is green but the product is broken."

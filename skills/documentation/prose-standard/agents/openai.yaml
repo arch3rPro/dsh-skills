@@ -1,0 +1,4 @@
+interface:
+  display_name: "Prose Standard"
+  short_description: "Preserve every contract in prose while deleting reasoning transcripts, repetition, and decoration"
+  default_prompt: "Use $prose-standard when writing, reviewing, trimming, restoring, or auditing prose — comments, JSDoc, docs, prompts, diagnostics, or visible strings."

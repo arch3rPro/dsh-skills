@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420"
+     role="img" aria-labelledby="title desc">
+  <title id="title">dsh-skills — development-specification skills for coding agents</title>
+  <desc id="desc">A catalog of generalized, project-agnostic development skills organized into four categories — architecture, testing, documentation, and process — that a coding agent applies automatically.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FBF9F4"/>
+      <stop offset="1" stop-color="#F3F0E7"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="420" rx="26" fill="url(#bg)"/>
+
+  <!-- structural accent rule -->
+  <rect x="56" y="70" width="56" height="6" rx="3" fill="#1E6B52"/>
+
+  <!-- ======================= LEFT: title block ======================= -->
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif">
+    <text x="56" y="128" font-size="19" font-weight="600" letter-spacing="2.5" fill="#1E6B52">GENERALIZED · PROJECT-AGNOSTIC</text>
+    <text x="54" y="210" font-size="78" font-weight="750" letter-spacing="-1.5" fill="#16181D">dsh-skills</text>
+    <text x="58" y="242" font-size="21" fill="#6E737C">DeepSeek-Harness-Skills</text>
+
+    <text x="56" y="300" font-size="25" font-weight="550" fill="#2A2E36">Development-specification skills that encode</text>
+    <text x="56" y="332" font-size="25" font-weight="550" fill="#2A2E36">engineering discipline as executable standards.</text>
+  </g>
+
+  <!-- metadata row -->
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="16" fill="#1E6B52">
+    <text x="56" y="388" font-weight="600">✓ 10 SKILLS</text>
+    <text x="196" y="388" fill="#B9BEC6">·</text>
+    <text x="212" y="388" font-weight="600">✓ 4 CATEGORIES</text>
+    <text x="412" y="388" fill="#B9BEC6">·</text>
+    <text x="428" y="388" font-weight="600">✓ MODEL-INVOKED</text>
+  </g>
+
+  <!-- ======================= RIGHT: system-map board ======================= -->
+  <g>
+    <rect x="668" y="52" width="476" height="316" rx="20" fill="#FFFFFF" stroke="#E2DED3" stroke-width="1.5"/>
+
+    <text x="692" y="92" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="18" font-weight="600" letter-spacing="1" fill="#16181D">THE SET</text>
+    <text x="692" y="113" font-size="15" fill="#6E737C" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif">One executable standard per discipline</text>
+    <line x1="692" y1="130" x2="1120" y2="130" stroke="#EEEAE0" stroke-width="1.5"/>
+
+    <!-- architecture -->
+    <text x="692" y="176" font-size="22" font-weight="600" fill="#1E6B52" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">✓</text>
+    <text x="726" y="176" font-size="22" font-weight="650" fill="#16181D" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif">architecture</text>
+    <text x="932" y="176" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15" fill="#6E737C">(3 skills)</text>
+
+    <!-- testing -->
+    <text x="692" y="236" font-size="22" font-weight="600" fill="#1E6B52" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">✓</text>
+    <text x="726" y="236" font-size="22" font-weight="650" fill="#16181D" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif">testing</text>
+    <text x="932" y="236" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15" fill="#6E737C">(1 skill)</text>
+
+    <!-- documentation -->
+    <text x="692" y="296" font-size="22" font-weight="600" fill="#1E6B52" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">✓</text>
+    <text x="726" y="296" font-size="22" font-weight="650" fill="#16181D" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif">documentation</text>
+    <text x="932" y="296" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15" fill="#6E737C">(2 skills)</text>
+
+    <!-- process -->
+    <text x="692" y="356" font-size="22" font-weight="600" fill="#1E6B52" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">✓</text>
+    <text x="726" y="356" font-size="22" font-weight="650" fill="#16181D" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif">process</text>
+    <text x="932" y="356" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15" fill="#6E737C">(4 skills)</text>
+  </g>
+</svg>

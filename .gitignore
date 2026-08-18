@@ -1,0 +1,11 @@
+# Reference material — cloned upstream repos, never committed
+reference/
+
+# Installed skill symlinks (scripts/link-skills.sh)
+~/.claude/skills
+~/.agents/skills
+
+# Node
+node_modules/
+dist/
+build/

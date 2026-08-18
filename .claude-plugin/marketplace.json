@@ -1,0 +1,24 @@
+{
+  "name": "dsh-skills",
+  "owner": {
+    "name": "DeepSeek-Harness-Skills",
+    "url": "https://github.com/arch3rPro/dsh-skills"
+  },
+  "description": "Generalized, project-agnostic development-specification skills, as an installable Claude Code plugin.",
+  "plugins": [
+    {
+      "name": "dsh-skills",
+      "source": "./",
+      "description": "Development-specification skills — defensive patterns, code conventions, testing tiers, prose standards, decision records, review and PR discipline.",
+      "category": "engineering",
+      "keywords": [
+        "engineering",
+        "skills",
+        "code-review",
+        "testing",
+        "documentation",
+        "process"
+      ]
+    }
+  ]
+}

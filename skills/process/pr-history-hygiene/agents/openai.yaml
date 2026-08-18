@@ -1,0 +1,4 @@
+interface:
+  display_name: "PR History Hygiene"
+  short_description: "Keep PR history deliberate and safe — lease-protected rewrites, deliberate labels, and native stack merging"
+  default_prompt: "Use $pr-history-hygiene when preparing, rewriting, labeling, merging, or stacking pull requests."

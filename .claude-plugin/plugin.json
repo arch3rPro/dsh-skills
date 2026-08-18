@@ -1,0 +1,17 @@
+{
+  "name": "dsh-skills",
+  "version": "0.1.0",
+  "description": "dsh-skills — generalized development-specification skills (defensive patterns, code conventions, testing tiers, prose standards, decision records, review/process discipline), extracted from DeepSeek Harness conventions and shaped by the mattpocock/skills architecture.",
+  "skills": [
+    "./skills/architecture/defensive-patterns",
+    "./skills/architecture/code-conventions",
+    "./skills/architecture/extension-points-and-seams",
+    "./skills/testing/testing-tiers",
+    "./skills/documentation/prose-standard",
+    "./skills/documentation/documentation-placement",
+    "./skills/process/decision-records",
+    "./skills/process/minimal-evidence-checks",
+    "./skills/process/code-review",
+    "./skills/process/pr-history-hygiene"
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Minimal Evidence Checks"
+  short_description: "Run the smallest set of checks that covers an outgoing change; never reflexively run the full suite"
+  default_prompt: "Use $minimal-evidence-checks before pushing, force-pushing, marking ready for review, or claiming checks pass — to select the smallest checks that cover the outgoing diff."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Decision Records"
+  short_description: "Record design decisions as ADRs with classification, lifecycle, and a mandatory alternatives-considered section"
+  default_prompt: "Use $decision-records when making or proposing a non-trivial design decision, reviewing a change that affects architecture/contracts/processes/formats, or deciding whether to archive a past decision."

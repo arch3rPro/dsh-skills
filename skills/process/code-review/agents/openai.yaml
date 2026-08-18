@@ -1,0 +1,4 @@
+interface:
+  display_name: "Code Review"
+  short_description: "Review a change on two axes — standards and spec — run as parallel sub-agents"
+  default_prompt: "Use $code-review when reviewing a branch, PR, or work-in-progress change, or when asked to review since a fixed point."

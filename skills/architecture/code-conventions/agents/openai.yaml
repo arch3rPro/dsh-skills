@@ -1,0 +1,4 @@
+interface:
+  display_name: "Code Conventions"
+  short_description: "Apply general code conventions: reversible effects, explicit boundaries, config-over-hardcoding, branded ids"
+  default_prompt: "Use $code-conventions when writing, reviewing, or refactoring code — especially when introducing side effects, defaults, unions, config values, or cross-boundary ids."

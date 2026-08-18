@@ -1,0 +1,4 @@
+interface:
+  display_name: "Documentation Placement"
+  short_description: "Decide where each fact belongs so it has exactly one home — tutorial vs reference, tier taxonomy, and budgets as guardrails"
+  default_prompt: "Use $documentation-placement when writing, moving, restructuring, or auditing documentation, or deciding where a fact should be documented."

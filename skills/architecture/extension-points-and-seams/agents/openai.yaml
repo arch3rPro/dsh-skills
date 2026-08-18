@@ -1,0 +1,4 @@
+interface:
+  display_name: "Extension Points and Seams"
+  short_description: "Decide when a capability warrants an interface/implementation/consumer seam, and design extension points without coupling callers to one implementation"
+  default_prompt: "Use $extension-points-and-seams when designing a new capability, deciding whether to split an interface, or adding behavior to an existing system. It is conditional — build a seam only when a second implementation or consumer is real."

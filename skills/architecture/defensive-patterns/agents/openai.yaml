@@ -1,0 +1,4 @@
+interface:
+  display_name: "Defensive Patterns"
+  short_description: "Apply bug-class defensive rules to lifecycle, concurrency, teardown, and untrusted-IO code"
+  default_prompt: "Use $defensive-patterns when writing or reviewing lifecycle, concurrency, subprocess, teardown, error-reporting, or untrusted-IO code."
