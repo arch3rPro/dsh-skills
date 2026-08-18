@@ -12,6 +12,8 @@ reference/                          read-only upstream clones — gitignored, ne
 .claude-plugin/plugin.json          Claude Code plugin manifest
 .claude-plugin/marketplace.json     Claude Code marketplace (npx skills / plugin install)
 scripts/link-skills.sh              symlink every skill into ~/.claude/skills and ~/.agents/skills
+scripts/validate-skills.py          strict-validate every SKILL.md + openai.yaml (run before push)
+.github/workflows/validate.yml      CI gate: runs the validator on every push/PR
 ```
 
 Categories: `architecture/`, `testing/`, `documentation/`, `process/`.
