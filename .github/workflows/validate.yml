@@ -1,0 +1,23 @@
+name: validate
+
+# Runs the skill-set validator on every push and pull request so the
+# published repo can never silently lose a skill from `npx skills add` or
+# the Claude Code plugin (e.g. an unquoted ': ' in a frontmatter
+# description that skills.sh's YAML parser rejects).
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+
+jobs:
+  validate-skills:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Install PyYAML
+        run: pip install pyyaml
+      - name: Validate skill packages
+        run: python3 scripts/validate-skills.py
