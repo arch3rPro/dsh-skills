@@ -5,7 +5,7 @@
 </div>
 
 <p align="center">
-  一套精选的**通用、跨项目开发规范技能（development-specification skills）**——即你的编码智能体在编码、评审、测试或撰写文档时自动应用的“可执行标准”，而不是某个项目专属的配方。这些规范源自 **DeepSeek Harness** 的工程约定，并适配为可移植、跨项目通用的标准，适用于任意仓库。
+  一套由 **DeepSeek Harness** 的工程约定提炼而成的编码智能体技能——即你的编码智能体在编码、评审、测试或撰写文档时自动应用的“可执行标准”。
 </p>
 
 <p align="center">
@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <img src="./assets/readme/hero.svg" width="100%" alt="dsh-skills — 面向编码智能体的通用、跨项目开发规范技能，涵盖架构、测试、文档与流程四大类">
+  <img src="./assets/readme/hero.svg" width="100%" alt="dsh-skills — 由 DeepSeek Harness 提炼的编码智能体技能，涵盖架构、测试、文档与流程四大类">
 </p>
 
 ## 快速开始
@@ -43,9 +43,9 @@ scripts/link-skills.sh   # 将每个技能软链接到 ~/.claude/skills 与 ~/.a
 | [code-review](docs/process/code-review.md) | 流程 | 双轴（规范 + 需求）；几个有实据的阻断项胜过一长串吹毛求疵 |
 | [pr-history-hygiene](docs/process/pr-history-hygiene.md) | 流程 | 带租约保护的历史重写、审慎打标签、原生栈式合并 |
 
-## 为什么这些技能可迁移
+## 来源
 
-**提取原则：**只保留能跨项目迁移的约定。dsh 的专属机制——其插件宿主、双语文档配对、CI 门禁、vendoring——都被刻意**不**提取。当某个约定属于带倾向性的架构取舍而非普适规则时，它会被写成*条件式*设计技能，而非硬性指令。
+每个技能都由 DeepSeek Harness 中的真实约定提炼而成，并适配到任意代码库——而非只能在它来源的框架内使用。
 
 ## 如何打包
 
@@ -108,7 +108,4 @@ claude plugins install dsh-skills@dsh-skills
 
 ## 致谢
 
-本套技能离不开两个项目：
-
-- **DeepSeek Harness** — 这些技能所提炼的工程约定与宝贵经验来源。
-- **[mattpocock/skills](https://github.com/mattpocock/skills)** — 本套技能所遵循的技能撰写与打包架构（`SKILL.md` + `agents/openai.yaml` + 文档页）。
+这些技能由 **DeepSeek Harness** 的工程约定提炼而成。

@@ -5,7 +5,7 @@
 </div>
 
 <p align="center">
-  A curated set of **generalized, project-agnostic development-specification skills** — executable standards your coding agent applies while coding, reviewing, testing, or documenting. The disciplines are distilled from the engineering conventions of **DeepSeek Harness** and adapted into portable, project-agnostic standards that work in any repository.
+  A set of coding-agent skills distilled from the engineering conventions of **DeepSeek Harness** — executable standards your coding agent applies while coding, reviewing, testing, or documenting.
 </p>
 
 <p align="center">
@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <img src="./assets/readme/hero.svg" width="100%" alt="dsh-skills — generalized, project-agnostic development-specification skills for coding agents, organized across architecture, testing, documentation, and process">
+  <img src="./assets/readme/hero.svg" width="100%" alt="dsh-skills — coding-agent skills distilled from DeepSeek Harness, organized across architecture, testing, documentation, and process">
 </p>
 
 ## Get started
@@ -43,9 +43,9 @@ Ten skills across four categories. Every one is **model-invoked** — the agent 
 | [code-review](docs/process/code-review.md) | process | two axes (standards + spec); substantiated blockers over nits |
 | [pr-history-hygiene](docs/process/pr-history-hygiene.md) | process | lease-protected rewrites, deliberate labels, native stack merges |
 
-## Why these skills transfer
+## Where they come from
 
-**The extraction principle:** only conventions that transfer across projects are kept. dsh's product-specific machinery — its plugin host, its bilingual docs pairing, its CI gates, its vendoring — is deliberately **not** extracted. Where a convention is an opinionated architectural choice rather than a universal rule, it is framed as a *conditional* design skill, not a mandate.
+Every skill is distilled from a real convention in DeepSeek Harness and adapted so it works in any codebase — not only inside the harness it came from.
 
 ## How it's packaged
 
@@ -108,7 +108,4 @@ Run `scripts/link-skills.sh` to symlink every skill into `~/.claude/skills` and 
 
 ## Acknowledgments
 
-This set would not exist without two projects:
-
-- **DeepSeek Harness** — the engineering conventions and hard-won disciplines these skills are distilled from.
-- **[mattpocock/skills](https://github.com/mattpocock/skills)** — the skill-authoring and packaging architecture this set follows (`SKILL.md` + `agents/openai.yaml` + docs page).
+These skills are distilled from the engineering conventions of **DeepSeek Harness**.

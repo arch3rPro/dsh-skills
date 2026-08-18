@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420"
      role="img" aria-labelledby="title desc">
   <title id="title">dsh-skills — development-specification skills for coding agents</title>
-  <desc id="desc">A catalog of generalized, project-agnostic development skills organized into four categories — architecture, testing, documentation, and process — that a coding agent applies automatically.</desc>
+  <desc id="desc">A catalog of coding-agent development skills distilled from DeepSeek Harness, organized into four categories — architecture, testing, documentation, and process — that a coding agent applies automatically.</desc>
 
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
@@ -17,7 +17,7 @@
 
   <!-- ======================= LEFT: title block ======================= -->
   <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif">
-    <text x="56" y="128" font-size="19" font-weight="600" letter-spacing="2.5" fill="#1E6B52">GENERALIZED · PROJECT-AGNOSTIC</text>
+    <text x="56" y="128" font-size="19" font-weight="600" letter-spacing="2.5" fill="#1E6B52">DISTILLED FROM DEEPSEEK HARNESS</text>
     <text x="54" y="210" font-size="78" font-weight="750" letter-spacing="-1.5" fill="#16181D">dsh-skills</text>
     <text x="58" y="242" font-size="21" fill="#6E737C">DeepSeek-Harness-Skills</text>
 
