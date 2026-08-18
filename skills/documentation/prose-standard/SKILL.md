@@ -1,6 +1,6 @@
 ---
 name: prose-standard
-description: Write prose that preserves every contract while deleting reasoning transcripts, repetition, and decoration — across comments, JSDoc, docs, prompts, diagnostics, and user-visible strings. Use when writing, reviewing, trimming, restoring, or auditing prose, or deciding where documentation or a comment is required. It owns two rules: preserve the complete proposition, and never let an authoring-session vantage leak into durable text.
+description: "Write prose that preserves every contract while deleting reasoning transcripts, repetition, and decoration — across comments, JSDoc, docs, prompts, diagnostics, and user-visible strings. Use when writing, reviewing, trimming, restoring, or auditing prose, or deciding where documentation or a comment is required. It owns two rules: preserve the complete proposition, and never let an authoring-session vantage leak into durable text."
 ---
 
 # Prose Standard
