@@ -108,4 +108,5 @@ Run `scripts/link-skills.sh` to symlink every skill into `~/.claude/skills` and 
 
 ## Acknowledgments
 
-These skills are distilled from the engineering conventions of **DeepSeek Harness**.
+- **[DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)** — an open-source agent harness developed by DeepSeek AI.
+- **[mattpocock/skills](https://github.com/mattpocock/skills)** — Matt Pocock's agent skills for real engineering.

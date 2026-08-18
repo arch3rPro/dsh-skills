@@ -1,6 +1,6 @@
 # CLAUDE.md — dsh-skills
 
-A curated set of **generalized, project-agnostic development-specification skills**, extracted from the engineering conventions of DeepSeek Harness and shaped by the skill-authoring architecture of [mattpocock/skills](https://github.com/mattpocock/skills). The project is **dsh-skills** (DeepSeek-Harness-Skills); the full name appears only in the README.
+A set of coding-agent skills distilled from the engineering conventions of **DeepSeek Harness**. The project is **dsh-skills** (DeepSeek-Harness-Skills); the full name appears only in the README.
 
 ## Repository layout
 

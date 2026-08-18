@@ -108,4 +108,5 @@ claude plugins install dsh-skills@dsh-skills
 
 ## 致谢
 
-这些技能由 **DeepSeek Harness** 的工程约定提炼而成。
+- **[DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)** — 由 DeepSeek AI 开发的开源智能体框架。
+- **[mattpocock/skills](https://github.com/mattpocock/skills)** — Matt Pocock 的面向真实工程实践的智能体技能。
