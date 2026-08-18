@@ -1,27 +1,29 @@
+<p align="center">
+  <img src="./assets/readme/hero.svg" width="100%" alt="dsh-skills — coding-agent skills distilled from DeepSeek Harness, organized across architecture, testing, documentation, and process">
+</p>
+
 <div align="center">
 
 # DeepSeek-Harness-Skills
 
 </div>
 
-<p align="center">
-  A set of coding-agent skills distilled from the engineering conventions of **DeepSeek Harness** — executable standards your coding agent applies while coding, reviewing, testing, or documenting.
-</p>
+<div align="center">
+
+A set of coding-agent skills distilled from the engineering conventions of **DeepSeek Harness** — executable standards your coding agent applies while coding, reviewing, testing, or documenting.
+
+</div>
 
 <p align="center">
   <b>English</b> · <a href="./README.zh-CN.md">简体中文</a>
 </p>
 
-<p align="center">
-  <img src="./assets/readme/hero.svg" width="100%" alt="dsh-skills — coding-agent skills distilled from DeepSeek Harness, organized across architecture, testing, documentation, and process">
-</p>
-
 ## Get started
 
-The fastest way to use these standards is to install them so your agent reaches for them automatically:
+Install the set with the skills.sh installer, then pick the skills and agents you want:
 
 ```bash
-scripts/link-skills.sh   # symlinks every skill into ~/.claude/skills and ~/.agents/skills
+npx skills@latest add arch3rPro/dsh-skills
 ```
 
 Or just read one — each `SKILL.md` is a self-contained executable standard. Pick the discipline that matches what you're doing: [code-conventions](docs/architecture/code-conventions.md), [testing-tiers](docs/testing/testing-tiers.md), [prose-standard](docs/documentation/prose-standard.md), or any in [the set](#the-set).
@@ -69,19 +71,11 @@ Skills are either **model-invoked** (the agent reaches for them automatically wh
 
 ## Installation
 
-The install routes below are alternatives, not add-ons — pick one.
+The two routes below are alternatives, not add-ons — pick one.
 
 ### `npx skills` — any agent (Claude Code, Codex, …)
 
-The [skills.sh](https://skills.sh) installer copies editable skill files into your project:
-
-```bash
-npx skills@latest add arch3rPro/dsh-skills
-```
-
-The installer lets you choose which skills to take and which coding agents to install them on. All ten skills are **model-invoked**, so they auto-fire once installed.
-
-Or install one skill at a time:
+Install one skill at a time (or the whole set from [Get started](#get-started)):
 
 ```bash
 npx skills@latest add arch3rPro/dsh-skills --skill=code-review
@@ -99,12 +93,6 @@ claude plugins install dsh-skills@dsh-skills
 ```
 
 The plugin manifest lives in `.claude-plugin/` (`marketplace.json` + `plugin.json`).
-
-### Local symlinks — for development
-
-Run `scripts/link-skills.sh` to symlink every skill into `~/.claude/skills` and `~/.agents/skills`. Re-run after adding, removing, or renaming a skill.
-
-> **Pick one route.** `npx skills` writes files you own and edit; the Claude Code plugin is a managed bundle. Installing both leaves every skill twice.
 
 ## Acknowledgments
 

@@ -1,27 +1,29 @@
+<p align="center">
+  <img src="./assets/readme/hero.svg" width="100%" alt="dsh-skills — 由 DeepSeek Harness 提炼的编码智能体技能，涵盖架构、测试、文档与流程四大类">
+</p>
+
 <div align="center">
 
 # DeepSeek-Harness-Skills
 
 </div>
 
-<p align="center">
-  一套由 **DeepSeek Harness** 的工程约定提炼而成的编码智能体技能——即你的编码智能体在编码、评审、测试或撰写文档时自动应用的“可执行标准”。
-</p>
+<div align="center">
+
+一套由 **DeepSeek Harness** 的工程约定提炼而成的编码智能体技能——即你的编码智能体在编码、评审、测试或撰写文档时自动应用的“可执行标准”。
+
+</div>
 
 <p align="center">
   <a href="./README.md">English</a> · <b>简体中文</b>
 </p>
 
-<p align="center">
-  <img src="./assets/readme/hero.svg" width="100%" alt="dsh-skills — 由 DeepSeek Harness 提炼的编码智能体技能，涵盖架构、测试、文档与流程四大类">
-</p>
-
 ## 快速开始
 
-最快的使用方式是把这些标准安装给智能体，让它自动按需启用：
+用 skills.sh 安装器安装整套技能，然后选择你想要的技能与目标智能体：
 
 ```bash
-scripts/link-skills.sh   # 将每个技能软链接到 ~/.claude/skills 与 ~/.agents/skills
+npx skills@latest add arch3rPro/dsh-skills
 ```
 
 或者直接读其中一个——每份 `SKILL.md` 都是一份自包含的可执行标准。按你正在做的事挑选对应的规范：[code-conventions](docs/architecture/code-conventions.md)、[testing-tiers](docs/testing/testing-tiers.md)、[prose-standard](docs/documentation/prose-standard.md)，或[技能全集](#技能全集)中的任意一个。
@@ -69,19 +71,11 @@ skills/
 
 ## 安装
 
-以下安装方式互斥，任选其一即可（不是叠加）。
+以下两种方式互斥，任选其一即可（不是叠加）。
 
 ### `npx skills` —— 任意智能体（Claude Code、Codex 等）
 
-[skills.sh](https://skills.sh) 安装器会把可编辑的技能文件复制进你的项目：
-
-```bash
-npx skills@latest add arch3rPro/dsh-skills
-```
-
-安装器会询问你想取用哪些技能、以及安装到哪些编码智能体上。全部十个技能均为**模型触发**，装好后即自动按需启用。
-
-也可以逐个安装：
+逐个安装技能（整套见[快速开始](#快速开始)）：
 
 ```bash
 npx skills@latest add arch3rPro/dsh-skills --skill=code-review
@@ -99,12 +93,6 @@ claude plugins install dsh-skills@dsh-skills
 ```
 
 插件清单位于 `.claude-plugin/`（`marketplace.json` 与 `plugin.json`）。
-
-### 本地软链接 —— 开发用
-
-运行 `scripts/link-skills.sh` 将每个技能软链接到 `~/.claude/skills` 与 `~/.agents/skills`。新增、删除或重命名技能后重新运行。
-
-> **任选一种方式。** `npx skills` 写入你可拥有、可编辑的文件；Claude Code 插件则是一份托管的捆绑包。两者都装会重复安装每个技能。
 
 ## 致谢
 
