@@ -5,7 +5,7 @@
 </div>
 
 <p align="center">
-  一套精选的**通用、跨项目开发规范技能（development-specification skills）**——即你的编码智能体在编码、评审、测试或撰写文档时自动应用的"可执行标准"，而不是某个项目专属的配方。每个技能提炼自 DeepSeek Harness 的工程约定，并借鉴 [mattpocock/skills](https://github.com/mattpocock/skills) 的技能撰写架构成形。
+  一套精选的**通用、跨项目开发规范技能（development-specification skills）**——即你的编码智能体在编码、评审、测试或撰写文档时自动应用的“可执行标准”，而不是某个项目专属的配方。这些规范源自 **DeepSeek Harness** 的工程约定，并适配为可移植、跨项目通用的标准，适用于任意仓库。
 </p>
 
 <p align="center">
@@ -105,3 +105,10 @@ claude plugins install dsh-skills@dsh-skills
 运行 `scripts/link-skills.sh` 将每个技能软链接到 `~/.claude/skills` 与 `~/.agents/skills`。新增、删除或重命名技能后重新运行。
 
 > **任选一种方式。** `npx skills` 写入你可拥有、可编辑的文件；Claude Code 插件则是一份托管的捆绑包。两者都装会重复安装每个技能。
+
+## 致谢
+
+本套技能离不开两个项目：
+
+- **DeepSeek Harness** — 这些技能所提炼的工程约定与宝贵经验来源。
+- **[mattpocock/skills](https://github.com/mattpocock/skills)** — 本套技能所遵循的技能撰写与打包架构（`SKILL.md` + `agents/openai.yaml` + 文档页）。

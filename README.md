@@ -5,7 +5,7 @@
 </div>
 
 <p align="center">
-  A curated set of **generalized, project-agnostic development-specification skills** — executable standards your coding agent applies while coding, reviewing, testing, or documenting. Each skill is extracted from the engineering conventions of DeepSeek Harness and shaped by the skill-authoring architecture of [mattpocock/skills](https://github.com/mattpocock/skills).
+  A curated set of **generalized, project-agnostic development-specification skills** — executable standards your coding agent applies while coding, reviewing, testing, or documenting. The disciplines are distilled from the engineering conventions of **DeepSeek Harness** and adapted into portable, project-agnostic standards that work in any repository.
 </p>
 
 <p align="center">
@@ -105,3 +105,10 @@ The plugin manifest lives in `.claude-plugin/` (`marketplace.json` + `plugin.jso
 Run `scripts/link-skills.sh` to symlink every skill into `~/.claude/skills` and `~/.agents/skills`. Re-run after adding, removing, or renaming a skill.
 
 > **Pick one route.** `npx skills` writes files you own and edit; the Claude Code plugin is a managed bundle. Installing both leaves every skill twice.
+
+## Acknowledgments
+
+This set would not exist without two projects:
+
+- **DeepSeek Harness** — the engineering conventions and hard-won disciplines these skills are distilled from.
+- **[mattpocock/skills](https://github.com/mattpocock/skills)** — the skill-authoring and packaging architecture this set follows (`SKILL.md` + `agents/openai.yaml` + docs page).
