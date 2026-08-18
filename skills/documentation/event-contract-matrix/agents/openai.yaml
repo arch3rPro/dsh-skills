@@ -1,0 +1,4 @@
+interface:
+  display_name: "Event Contract Matrix"
+  short_description: "Document who produces and who listens to each event as a single source of truth, bypass sites included"
+  default_prompt: "Use $event-contract-matrix in an event-driven or pub/sub system where events cross module boundaries."

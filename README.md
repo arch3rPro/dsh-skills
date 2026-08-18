@@ -45,6 +45,18 @@ Ten skills across four categories. Every one is **model-invoked** — the agent 
 | [code-review](docs/process/code-review.md) | process | two axes (standards + spec); substantiated blockers over nits |
 | [pr-history-hygiene](docs/process/pr-history-hygiene.md) | process | lease-protected rewrites, deliberate labels, native stack merges |
 
+## Beta (in development)
+
+Five further disciplines are grounded in DeepSeek Harness and under development. They are `npx skills`-installable but not yet part of the official plugin bundle.
+
+| Skill | Category | What it does |
+| --- | --- | --- |
+| [postmortem](docs/process/postmortem.md) | process | backward-looking failure record: executive summary, root cause, guardrails |
+| [runtime-invariants](docs/testing/runtime-invariants.md) | testing | assert only authoritative state, never service/method presence; fail loud |
+| [responding-to-review-on-a-stack](docs/process/responding-to-review-on-a-stack.md) | process | fix on the introducing PR, propagate up-stack, re-audit after rewrites |
+| [event-contract-matrix](docs/documentation/event-contract-matrix.md) | documentation | who produces and who listens to each event, bypass sites included |
+| [module-layering](docs/architecture/module-layering.md) | architecture | derive and enforce the module dependency graph |
+
 ## Where they come from
 
 Every skill is distilled from a real convention in DeepSeek Harness and adapted so it works in any codebase — not only inside the harness it came from.

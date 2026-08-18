@@ -1,0 +1,4 @@
+interface:
+  display_name: "Runtime Invariants"
+  short_description: "Assert only authoritative state at runtime — never service or method presence — with module-owned checks that fail loud"
+  default_prompt: "Use $runtime-invariants when adding runtime invariant checks, or deciding what an invariant may assert."

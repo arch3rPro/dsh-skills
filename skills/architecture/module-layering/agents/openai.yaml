@@ -1,0 +1,4 @@
+interface:
+  display_name: "Module Layering"
+  short_description: "Derive the dependency graph from the canonical signal, catch circular deps, and enforce intended layering with tooling"
+  default_prompt: "Use $module-layering when a codebase has many modules or packages and layering is a real concern."

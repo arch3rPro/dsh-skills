@@ -45,6 +45,18 @@ npx skills@latest add arch3rPro/dsh-skills
 | [code-review](docs/process/code-review.md) | 流程 | 双轴（规范 + 需求）；几个有实据的阻断项胜过一长串吹毛求疵 |
 | [pr-history-hygiene](docs/process/pr-history-hygiene.md) | 流程 | 带租约保护的历史重写、审慎打标签、原生栈式合并 |
 
+## 测试版（开发中）
+
+另有五个源自 DeepSeek Harness 的规范仍在开发中。它们可通过 `npx skills` 安装，但尚未进入官方插件包。
+
+| 技能 | 类别 | 作用 |
+| --- | --- | --- |
+| [postmortem](docs/process/postmortem.md) | 流程 | 失败复盘：执行摘要、根因、护栏 |
+| [runtime-invariants](docs/testing/runtime-invariants.md) | 测试 | 只断言权威状态，而非服务/方法存在；启动即失败 |
+| [responding-to-review-on-a-stack](docs/process/responding-to-review-on-a-stack.md) | 流程 | 在引入问题的 PR 上修复、向上游传播、重写后复审 |
+| [event-contract-matrix](docs/documentation/event-contract-matrix.md) | 文档 | 记录每个事件的产生者与监听者，含绕过点 |
+| [module-layering](docs/architecture/module-layering.md) | 架构 | 推导并强制模块依赖分层 |
+
 ## 来源
 
 每个技能都由 DeepSeek Harness 中的真实约定提炼而成，并适配到任意代码库——而非只能在它来源的框架内使用。

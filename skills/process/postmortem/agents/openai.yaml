@@ -1,0 +1,4 @@
+interface:
+  display_name: "Postmortem"
+  short_description: "Write a backward-looking failure record with executive summary, root cause, and guardrails"
+  default_prompt: "Use $postmortem after a hard incident or regression, or when deciding whether a failure retrospection is owed."

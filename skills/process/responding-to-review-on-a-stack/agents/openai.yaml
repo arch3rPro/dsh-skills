@@ -1,0 +1,4 @@
+interface:
+  display_name: "Responding to Review on a Stack"
+  short_description: "Fix on the introducing PR, propagate up-stack, keep distinct commits, lease-protect rewrites, and re-audit after"
+  default_prompt: "Use $responding-to-review-on-a-stack when review comments span several dependent PRs in a stack."
